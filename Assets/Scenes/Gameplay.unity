@@ -481,6 +481,7 @@ MonoBehaviour:
   random_num: 0
   rojo: {fileID: 2100000, guid: 7d6bef2822bc0264c94fbac6d56d5d17, type: 2}
   gameover: {fileID: 217681449}
+  clock: 0
 --- !u!135 &257248673
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -513,7 +514,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7d6bef2822bc0264c94fbac6d56d5d17, type: 2}
+  - {fileID: 2100000, guid: a8999672c00cd45419bf1be867df84f3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -550,13 +551,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 257248670}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: -30.1, y: 0.68, z: -14.9}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &277474616
 GameObject:
   m_ObjectHideFlags: 0
@@ -1302,6 +1303,7 @@ MonoBehaviour:
   random_num: 0
   rojo: {fileID: 2100000, guid: 7d6bef2822bc0264c94fbac6d56d5d17, type: 2}
   gameover: {fileID: 217681449}
+  clock: 0
 --- !u!135 &736900120
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1334,7 +1336,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7d6bef2822bc0264c94fbac6d56d5d17, type: 2}
+  - {fileID: 2100000, guid: a8999672c00cd45419bf1be867df84f3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2288,6 +2290,7 @@ MonoBehaviour:
   random_num: 0
   rojo: {fileID: 2100000, guid: 7d6bef2822bc0264c94fbac6d56d5d17, type: 2}
   gameover: {fileID: 217681449}
+  clock: 0
 --- !u!135 &1171018416
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2320,7 +2323,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7d6bef2822bc0264c94fbac6d56d5d17, type: 2}
+  - {fileID: 2100000, guid: a8999672c00cd45419bf1be867df84f3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3506,7 +3509,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7d6bef2822bc0264c94fbac6d56d5d17, type: 2}
+  - {fileID: 2100000, guid: a8999672c00cd45419bf1be867df84f3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3543,13 +3546,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2067282769}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0.68, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &2067282775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3568,8 +3571,9 @@ MonoBehaviour:
   player: {fileID: 162601501}
   timer: 0
   random_num: 0
-  rojo: {fileID: 2100000, guid: 7d6bef2822bc0264c94fbac6d56d5d17, type: 2}
+  rojo: {fileID: 2100000, guid: a8999672c00cd45419bf1be867df84f3, type: 2}
   gameover: {fileID: 217681449}
+  clock: 0
 --- !u!114 &2067282776
 MonoBehaviour:
   m_ObjectHideFlags: 0
